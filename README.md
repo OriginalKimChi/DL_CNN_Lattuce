@@ -42,6 +42,8 @@ test_generator = test_dataGenerator.flow_from_directory(
 </code>
 </pre>
 
+<img width="382" alt="img1" src="https://user-images.githubusercontent.com/48902646/94031959-6b2d3e80-fdfa-11ea-9a1e-3c9173fae2b3.png">
+
 다음으로 Keras의 ImageDataGenerator를 통해서 객체를 생성한 뒤, flow_from_directory() 함수를 통해 generator를 생성합니다. 제너레이터는 train과 test용으로 두가지를 생성합니다.
 
 flow_from_directory()의 인자는 다음과 같습니다.
@@ -76,6 +78,8 @@ model.add(Dense(1, activation='sigmoid'))
 
 구성 모델은 다음과 같이 표현됩니다.
 
+<img width="543" alt="스크린샷 2020-09-24 오전 12 42 16" src="https://user-images.githubusercontent.com/48902646/94036034-d11bc500-fdfe-11ea-96b6-54304a08013b.png">
+
 <pre>
 <code>
 model = Sequential()
@@ -90,7 +94,7 @@ model.add(Dense(1, activation='sigmoid'))
 </code>
 </pre>
 
-<img width="382" alt="img1" src="https://user-images.githubusercontent.com/48902646/94031959-6b2d3e80-fdfa-11ea-9a1e-3c9173fae2b3.png">
+
 
 ### 4. Setting up the learning process
 
